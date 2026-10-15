@@ -1,82 +1,152 @@
-# ☕ Coffee Shop Sales Analysis & Dashboard
+# ☕ Coffee Shop Sales Analysis & Interactive Dashboard
+
+An Excel-based data analytics project focused on analyzing coffee shop sales performance, identifying trends, and presenting business insights through an interactive dashboard.
+
+## 📊 Dashboard Preview
+
+![Coffee Shop Sales Dashboard](dashboard.png)
 
 ## 📌 Project Overview
 
-This project focuses on analyzing coffee shop sales data using Microsoft Excel to identify sales trends, product performance, store performance, and customer purchasing patterns. An interactive dashboard was developed to present key business metrics and support data-driven decision-making.
+This project analyzes transaction-level coffee shop sales data using Microsoft Excel. The dashboard transforms raw sales records into meaningful visualizations and key performance indicators (KPIs) to help understand revenue, product demand, store performance, and sales trends.
+
+The project demonstrates practical skills in data analysis, data visualization, business reporting, and Excel dashboard development.
 
 ## 🎯 Project Objectives
 
 - Analyze overall sales and transaction performance.
 - Track revenue and quantity sold.
-- Identify top-performing product categories and products.
-- Analyze sales trends by month, day, and hour.
+- Evaluate product categories and product types.
+- Explore sales trends by month, day of the week, and hour.
 - Compare sales performance across store locations.
-- Build an interactive, visually appealing Excel dashboard.
+- Develop an interactive dashboard for business reporting.
+- Present data in a clear and actionable format.
 
 ## 🛠️ Tools & Technologies
 
-- **Microsoft Excel**
-- PivotTables and PivotCharts
-- Excel formulas and calculated columns
-- Slicers and interactive filters
-- Data cleaning and exploratory data analysis
-- Dashboard design and data visualization
+- **Microsoft Excel** — Data analysis and dashboard development
+- **PivotTables** — Data summarization and aggregation
+- **PivotCharts** — Visual representation of sales metrics
+- **Excel Formulas** — Calculated metrics and KPI analysis
+- **Slicers & Filters** — Interactive data exploration
+- **GitHub** — Project documentation and portfolio hosting
 
-## 📊 Key Performance Indicators (KPIs)
+## 📈 Key Performance Indicators (KPIs)
 
-| Metric              |       Value |
-| ------------------- | ----------: |
-| Total Revenue       | $698,812.33 |
-| Total Transactions  |     149,116 |
-| Total Quantity Sold |     214,470 |
-| Average Order Value |       $4.69 |
-| Average Unit Price  |       $3.38 |
+| Metric | Value |
+|---|---:|
+| Total Revenue | $698,812.33 |
+| Total Transactions | 149,116 |
+| Total Quantity Sold | 214,470 |
+| Average Order Value | $4.69 |
+| Average Unit Price | $3.38 |
 
-*Note: Revenue and average price are presented in the dataset's original currency.*
+*Note: Currency symbols and KPI definitions should be verified against the original dataset and workbook before publication.*
 
-## 📈 Dashboard Features
+## 📊 Dashboard Features
 
-- **Sales Overview:** Summary of key performance indicators.
-- **Monthly Sales Analysis:** Revenue trends across months.
-- **Store Performance:** Comparison of sales by store location.
-- **Product Analysis:** Sales performance by product category and product type.
-- **Time-Based Analysis:** Sales patterns by hour and day of the week.
-- **Interactive Filters:** Slicers for exploring data by month, store location, and product category.
+### 1. Sales Performance
+- Overview of key sales metrics.
+- Total revenue and quantity sold.
+- Transaction volume and average order value.
 
-## 🧹 Data Preparation
+### 2. Time-Based Sales Analysis
+- Monthly sales trends.
+- Day-of-week sales patterns.
+- Hourly sales performance.
 
-- Reviewed the dataset for missing values and duplicate records.
-- Preserved the original data in a raw-data sheet.
-- Prepared a cleaned dataset for analysis.
-- Created calculated fields such as revenue, month, day name, hour, and time period.
+### 3. Product Analysis
+- Sales analysis by product category.
+- Product type and product detail comparisons.
+- Identification of products with stronger sales performance.
 
-## 💡 Business Value
+### 4. Store Performance
+- Comparison of sales across store locations.
+- Store-level performance analysis.
+- Support for identifying differences in location performance.
 
-The dashboard helps users monitor sales performance, compare store locations, understand product demand, and identify time periods with stronger sales activity. These insights can support inventory planning, staffing decisions, and sales strategy.
+### 5. Interactive Dashboard
+- PivotTables and PivotCharts for dynamic reporting.
+- Slicers and filters, where configured, for exploring selected periods, stores, and product categories.
+- KPI cards for a quick overview of business performance.
 
-## 📂 Dataset
+## 🧹 Data Preparation & Analysis
 
-The dataset contains transaction-level coffee shop sales information, including:
+The dataset contains transaction-level information, including dates, times, quantities, prices, store locations, and product details.
 
-- Transaction ID, date, and time
-- Quantity and unit price
-- Store ID and location
-- Product ID, category, type, and detail
+The analysis workflow includes:
+
+1. Reviewing the dataset structure and column types.
+2. Checking data quality and investigating missing or duplicate records.
+3. Preparing calculated fields required for sales analysis.
+4. Summarizing data using PivotTables.
+5. Creating charts and KPI metrics.
+6. Organizing the visualizations into a dashboard.
+7. Documenting the results for business reporting.
+
+## 🔍 Business Value
+
+This project demonstrates how sales data can support business decisions by helping users:
+
+- Monitor revenue and transaction performance.
+- Understand product demand and sales mix.
+- Compare performance across store locations.
+- Identify time periods with stronger sales activity.
+- Support inventory planning and staffing decisions.
+- Communicate sales performance through visual reporting.
+
+## 📂 Dataset Description
+
+The dataset includes the following fields:
+
+| Column | Description |
+|---|---|
+| `transaction_id` | Unique transaction identifier |
+| `transaction_date` | Date of transaction |
+| `transaction_time` | Time of transaction |
+| `transaction_qty` | Quantity purchased |
+| `store_id` | Store identifier |
+| `store_location` | Store location |
+| `product_id` | Product identifier |
+| `unit_price` | Price per unit |
+| `product_category` | Product category |
+| `product_type` | Product type |
+| `product_detail` | Product description |
 
 ## 🚀 How to Use
 
-1. Download the Excel workbook from this repository.
-2. Open it in Microsoft Excel.
-3. Navigate to the dashboard sheet.
-4. Use the available slicers and filters to explore sales performance.
+1. Open this repository on GitHub.
+2. Download the Excel workbook.
+3. Open the workbook in Microsoft Excel.
+4. Navigate to the dashboard worksheet.
+5. Use the available slicers and filters to explore the data.
+6. Review the PivotTables and charts to understand the sales analysis.
 
-## Dashboard Preview
+## 📁 Project Files
 
-![Coffee Shop Sales Dashboard](dashboard.png)
+- `Coffee Shop Sales Dashboard.xlsx` — Excel workbook containing the sales analysis and dashboard.
+- `dashboard.png` — Dashboard preview image.
+- `README.md` — Project documentation.
+
+## 💡 Key Learnings
+
+- Summarizing transaction data with PivotTables.
+- Building KPI cards and sales charts in Excel.
+- Organizing data visualizations into an interactive dashboard.
+- Communicating analytical results in a business-friendly format.
+- Publishing and documenting a data analytics project on GitHub.
 
 ## 👩‍💻 Author
 
 **Garima Morya**
 
-Aspiring Data Analyst | Excel | SQL | Python
+Aspiring Data Analyst
+
+**Skills:** Microsoft Excel | SQL | Python | Data Analysis | Data Visualization
+
+## ⭐ Project Highlights
+
+This project showcases practical Excel skills through sales data analysis, KPI reporting, interactive visualizations, and professional project documentation.
+
+If you find this project useful, feel free to explore the repository and its dashboard.
 
