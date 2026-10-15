@@ -70,6 +70,10 @@ The dataset contains transaction-level coffee shop sales information, including:
 3. Navigate to the dashboard sheet.
 4. Use the available slicers and filters to explore sales performance.
 
+## Dashboard Preview
+
+![Coffee Shop Sales Dashboard](dashboard.png)
+
 ## 👩‍💻 Author
 
 **Garima Morya**
